@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   
+   var a= prompt('what is your name');
+   alert('hello ' +a+  '! welcome to our website');
+ 
+   var num1= +prompt("enter first number: ")
+   var operator = +prompt("enter operator (*):")
+   var num2  =prompt("enter second number: ")
+  var res= num1 * num2
+  alert("result: " +res);
+
+ var age = +prompt("enter your age: ")
+ var msg = (age>=18) ? "you are eligible to vote.": "you are too young to vote:"
+ alert(msg)
+
+var cel= prompt("enter temperature")
+var far= ((cel* 9/5) + 32)
+alert("farenheit temp " +far)
+
+var x= prompt("enter a number:");
+
+var even = x % 2 === 0;
+
+var res = even ? "the given no is even" : "the given no is odd";
+
+alert(res);
+
+var pass = {
+    "12345" : "Acess granted." 
+} ;
+
+var input = prompt("Enter password");
+
+var res = pass[input] || "access denied";
+
+alert(res);
+
+
+
+    
+
+
+        
+        
+
+
+    </script>
+</body>
+</html>
